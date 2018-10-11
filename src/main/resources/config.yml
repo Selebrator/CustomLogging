@@ -1,0 +1,10 @@
+message:
+  command:
+    log:
+      no_permission: '&cInsufficient permission!'
+      unknown_loggerId: '&cUnknown logger: "&r{loggerId}&c"'
+      success: '&aLogged "&r{log}&a"'
+      error: '&4Something went wrong. See console for more information'
+    reload:
+      no_permission: '&cInsufficient permission!'
+      success: '&aReloaded config of CustomLogging'

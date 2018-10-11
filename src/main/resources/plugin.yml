@@ -1,0 +1,13 @@
+main: ${main}
+name: ${plugin_name}
+version: ${plugin_version}
+author: ${author}
+softdepend: [PlaceholderAPI]
+api-version: 1.13
+commands:
+  customlogging:
+    usage: §cIncorrect usage! /<command> <loggerId> <message>
+    aliases: [customlog, log]
+  customloggingreload:
+    usage: §cIncorrect usage! /<command>
+    aliases: [customlogreload, customlogrl, logreload, logrl]
