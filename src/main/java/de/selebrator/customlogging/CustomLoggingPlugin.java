@@ -55,6 +55,10 @@ public class CustomLoggingPlugin extends JavaPlugin {
 		}
 
 		final String loggerId = args[0];
+		if(!sender.hasPermission("customlogging.writelog." + loggerId) && !sender.hasPermission("customlogging.writelog.*")) {
+			sender.sendMessage(message(sender, "message.command.log.no_permission_loggerId"));
+			return true;
+		}
 		final String message = Arrays.stream(args)
 				.skip(1)
 				.collect(Collectors.joining(" "));

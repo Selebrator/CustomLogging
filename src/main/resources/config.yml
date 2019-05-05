@@ -3,6 +3,7 @@ message:
     log:
       no_permission: '&cInsufficient permission!'
       unknown_loggerId: '&cUnknown logger: "&r{loggerId}&c"'
+      no_permission_loggerId: "&cYou may not use this logger."
       success: '&aLogged "&r{log}&a"'
       error: '&4Something went wrong. See console for more information'
     reload:
